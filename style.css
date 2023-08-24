@@ -1,0 +1,181 @@
+body,footer{
+   background-color: #1F2833;
+}
+
+.buttonStyle button{
+    background-color: transparent; 
+    position:relative;
+    border: white;
+    color:white;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    
+  }
+  .buttonStyle button:hover{
+      color: #66FCF1;
+      text-shadow:#66FCF1 1px 0 10px;
+      cursor: pointer;
+  }
+  .socials_home button{
+    position:relative;
+    
+    cursor:pointer;
+    border:none;
+    
+    
+}
+.socials_home button:hover{
+    cursor: pointer;
+    
+}
+.socials button{
+    position:relative;
+   
+    cursor:pointer;
+    border:none;
+    
+    
+}
+.socials button:hover{
+    cursor: pointer;
+    
+}
+
+#linkedin{
+    background:url("images/linked.png");
+    background-size: contain;
+    position:relative;
+    width:30px;
+    height:30px;
+    
+}
+#linkedin:hover{
+    opacity: 30%;
+    
+}
+#git{
+    background:url("images/github-logo.png");
+    background-size:contain;
+    position:relative;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+   
+}
+#git:hover{
+    opacity: 30%;
+    
+}
+.cards{
+    background-color: #C5C6C7;
+}
+.cards:hover{
+    opacity: 30%;
+}
+.cards2{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+  }
+  .cards2 h2.header{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-family: Georgia, Serif;
+    text-shadow:rgb(251, 251, 251) 1px 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .services{
+    display: flex;
+    align-items: center;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+  }
+  .content .fab{
+    font-size: 70px;
+    margin: 16px 0;
+  }
+  .content > *{
+    flex: 1 1 100%;
+    color: #fff;
+  }
+  .content:hover{
+    color: white;
+  }
+  .content:hover a{
+    border-color: white;
+    background: white;
+  }
+  .content-1:hover{
+    border-color: #171515 ;
+    background: #171515 ;
+  }
+  .content-1:hover a{
+    color: #171515;
+    
+  }
+  .content-2:hover{
+    border-color: #E1306C;
+    background: #E1306C;
+  }
+  .content-2:hover a{
+    color: #E1306C;
+  }
+  .content-3:hover{
+    border-color: #08f26e;
+    background: #08f26e;
+  }
+  .content-3:hover a{
+    color: #08f26e;
+  }
+  .content-4:hover{
+    border-color: #0072b1;
+    background: #0072b1;
+  }
+  .content-4:hover a{
+    color: #0072b1;
+  }
+  .content h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .content p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .content a{
+    margin: 22px 0;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+  }
+  .content a:hover{
+    border-radius: 4px;
+  }
+  @media (max-width: 900px) {
+    .services{
+      display: flex;
+      flex-direction: column;
+    }
+  }
