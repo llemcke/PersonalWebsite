@@ -48,6 +48,7 @@ body,footer{
     background:url("images/linked.png");
     background-size: contain;
     position:relative;
+    background-repeat: no-repeat;
     width:30px;
     height:30px;
     
